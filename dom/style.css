@@ -1,0 +1,47 @@
+/* Basic styling for the page */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Container for the app */
+.container {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+/* Style for input and buttons */
+input, button {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #ddd;
+}
+
+/* Style for task list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style for each task */
+li {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Style for completed tasks */
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
